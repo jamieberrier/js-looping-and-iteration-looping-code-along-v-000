@@ -7,4 +7,5 @@ function writeCards(names, event_name) {
     // create a custom message for each name from the provided array, thanking that person for their gift.
     // Collect the messages in an array and return this array.
   }
+  // return cards;
 }
