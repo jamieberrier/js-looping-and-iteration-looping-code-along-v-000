@@ -7,7 +7,7 @@ function writeCards(names, event_name) {
   for (let i = 0; i < names.length; i++) {
     // create a custom message for each name from the provided array, thanking that person for their gift.
     // Collect the messages in an array and return this array.
-    cards[i] = `Thank you, ${names[i]}, for the wonderful ${event_name}, gift!`
+    cards[i] = `Thank you, ${names[i]}, for the wonderful ${event_name} gift!`
   }
   return cards;
 }
