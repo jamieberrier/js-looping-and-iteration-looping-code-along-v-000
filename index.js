@@ -17,6 +17,6 @@ function countDown(start_num) {
   let count = 0;
   while (start_num >= count) {
     console.log(start_num - count);
+    count++;
   }
-  count++;
 }
