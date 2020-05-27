@@ -9,5 +9,5 @@ function writeCards(names, event_name) {
     // Collect the messages in an array and return this array.
     cards[i] = `Thank you, ${names[i]}, for the wonderful ${event_name}, gift!`
   }
-  // return cards;
+  return cards;
 }
